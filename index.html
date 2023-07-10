@@ -1,48 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koo</title>
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
+
 <body>
-    <div class="main">
-    <!--Navigation Div-->
-    <div class="nav">
-      <!--Nav Left-->
-      <div class="nav-left">
-        <img src="Koo.svg" alt="Koo" width="70" height="'70">
-        <h1 class="title"><i>Koo</i></h1>
-      </div>
-
-      <!--Nav Right-->
-      <div class="nav-right">
-        <a href="#" class="nav-menu">Home</a>
-        <a href="#" class="nav-menu">About</a>
-        <a href="#" class="nav-menu">Contact</a>
-      </div>
-
-    </div>
-    <!--Content-->
-    <div class="content">
-        <!--Con Left-->
-        <div class="con-left">
-            <h1 class="head">Send Unlimited Messages</h1>
-            <p class="para">No contracts or unwanted fees.Exclusive offer for new customers only.</p>
-            <button class="button">Get Started</button>
+    <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder="Enter your task">
+            <button id="push"><strong>Add</strong></button>
         </div>
-
-        <!--Con Right-->
-        <div class="con-right">
-            <img src="Chat.svg" alt="chat" width="750" height="600" class="chat">
+        <div id="tasks">
+            
         </div>
-
     </div>
-</div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
